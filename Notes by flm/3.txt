@@ -1,0 +1,169 @@
+Java Program Structure				skeleton
+Syntax : Rule to write the command
+
+documentation section				- Optional
+package statement					- Optional
+import statement					- Essential
+interface declarations				- Optional
+class Definitions					- Optional
+main method class					-Essential
+{
+	public static void main(String args[])
+	{
+		statements;
+	}
+}
+
+
+Documentation section	- not executable 	comment lines
+	Java supports 2 types of comments
+
+	1. single line 	// program to add 2 numbers
+	2. multi line	/* ....
+		 	     .....
+			........ */
+
+Package statement
+		Reusability
+	to create our own packages
+			classes + methods+ variables and sub packages
+	package pname;
+
+import statement
+	#include in C language
+	JSL	- Java Standard/simulation Library
+	to import a package,sub package or a class
+
+import package.subpackage.class;
+	import package.subpackage.*; //to represent all the classes of the package
+ex:
+	import java.io.*;	// to import standard I/O classes and methods
+	import java.lang.*;	//to import language package 
+
+interface declarations
+	"almost a class" but not a class
+	to achieve multiple inheritance
+interface <name>
+{
+	var declarations
+	method declarations
+}
+ should be inherited into a class
+
+class Definitions		
+	to define external classes
+
+main method class
+	must for executing the program
+
+	public static void main(String args[])
+public 	to access by all
+static	to use the class and main() without creating object for it
+	static methods can be invoked by "class name" not by object
+	STUDENT
+		no,name,class	members
+	methods
+		unit( )	sem( )	methods
+static void unit()
+	STUDENT.unit( ) X
+	representation
+	STUDENT s1,s2,...;	
+		s1.unit();
+eX:
+	Math . sqrt(16) -> 4
+	Math.pow(19,4)->
+			parseInt( )
+			parseFloat  ( )
+			ArrayIndexOutOfBounds
+
+void	data type used in methods - returns "nothing"
+
+main( )	STARTING point of the program execution
+
+String args[ ]	String -> class name
+		args[ ]  -> array of objects for the class String
+	they are used for " command line args"
+
+In java 
+	we can declare the variables where ever we required
+
+class 
+	System defined 
+	user defined
+method : a function or a task
+variable :	to hold a value and may change the value	
+
+why java does not support multiple inheritance??
+what are the  API packages supported by java??
+
+System.out.println("message");
+		this method used to print message on the screen
+
+Compile and executing a java program
+	Open Editor	- notepad
+	type the source code
+	save the file  with  " . java "  in the folder c:\jdk17\bin
+	ex: First.java
+
+after saving the file open CMD
+and goto c:\jdk17\bin directory
+
+to compile the file 
+	javac file.java
+after succesful compilation,it will create ".class" file, which is "byte code"
+	javac First.java
+	
+	First.class
+		class	my class room
+			MyClassRoom
+		method
+			input data
+			inputData ( )
+	
+to execute We use java Interpreter
+	java classname
+
+	java First
+
+
+
+how to compile and executing the program
+how to install java software
+2 types of inputs
+
+1.cmd line args
+2.runtime values
+
+String args[ ]   array of args
+	"123"	"44.566"		"T" "F"
+	"abc@dd.com"
+
+java Addition <arg1> <arg2>...
+
+
+1.multiplication of 3 double values
+2. swapping of 2 integer values
+	
+	javac
+	java
+
+
+
+
+			ArrayIndexOutOfBoundsException
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

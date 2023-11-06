@@ -1,0 +1,353 @@
+	Looping or iterative statements
+
+	Repeteting the same set of instructions again and again
+
+	2 types of statements
+	Entry Controlled Loop	Ex: while ,		for
+	Exit Controlled loop		Ex : do..while
+
+while
+for
+do..while
+
+		while
+	syntax
+	
+	while(cond)
+	{
+		states
+		incr/decr
+	}
+
+1. print 1..10 nos
+2. print 20 to 10 nos
+3. even nos from 50 to 100
+	50 52 54		a=a+2;
+4. Odd nos from 100 to 50
+	n>=50
+		n=99
+		print n
+		n=n-2
+	
+5. nos divisible by 5 from 200 to 300
+	n=200
+		print n
+	n=n+5
+6. print the factorial value of a no
+7, print the factors of a no
+	10
+1	2	5	10
+	19
+1		19
+	101
+1		101
+	20
+1	2	4	5	10	20
+
+
+
+
+	5!= 5 X 4 X 3 X 2 X 1
+	=120
+			n! = n  X (n-1)!
+
+	n=5  	i=1	f=1
+	while(i<=n)
+		f=f*i;
+		i++;
+
+	while(1<=5)
+		f=1*1;	f=1
+		i++
+	i=2	f=1
+	while(2<=5)
+		f=1*2;	f=2
+		i++
+
+	i=3	f=2
+	while(3<=5)
+		f=2*3;	f=6
+		i++
+	i=4	f=6
+	while(4<=5)
+		f=6*4;	f=24
+		i++
+	i=5	f=24
+	while(5<=5)
+		f=24*5;	f=120
+		i++
+
+
+	i=6
+	while(6<=5) F
+	
+8. check the given no is prime no or not
+	factors one and itself
+	2
+12
+1	2	3	4	6	12	6 X
+17	
+1	17					2 yes
+9
+1	3	9				3 X
+
+1. Wap to find the reverse of a given no
+	n=123
+
+	rev=321
+
+	10 )  123 (12
+	         120
+	       --------
+	              3  	
+***multiply with 10 will increase its position by 10s
+
+	n=123,rem=0,rev=0
+	n>0
+		rem=n%10
+		rev=rev* 10+ rem			//a=a+rem*rem*rem;
+		n=n/10
+	123>0
+		rem=123%10=3
+		rev=0*10+3=3			
+		n=123/10=12
+	12>0
+		rem=12%10=2
+		rev=3*10+2=32
+		n=12/10=1
+	1>0
+		rem=1%10=1
+		rev=32*10+1=321
+		n=1/10=0
+	0>0 X
+
+63000256878
+
+527
+	725
+
+
+2. wap to check the given no is Polindrome no or not
+	
+		CHAKRI
+		IRKAHC
+		231
+		132
+	1	1
+121	   =	121
+
+3. wap to check the given no is Armstrong no or not
+"sum of the cubes of the digits equal to actual no"
+	ex: 153,370,407
+n=153
+	1 ^3+5^3+3^3
+	=1+125+27
+	=153
+n>0
+		rem=n%10
+		a=a+rem*rem*rem;
+		n=n/10
+
+
+	n=153,rem=0,a=0
+
+	n>0
+		rem=n%10
+		a=a+rem*rem*rem;
+		n=n/10
+	153>0
+		rem=153%10=3
+		a=a+3^3=27
+		n=153/10=15
+	15>0
+		rem=15%10=5
+		a=27+5^3=152
+		n=15/10=1
+	1>0
+		rem=1%10=1
+		a=152+1^3=153
+		n=1/10=0
+	0>0 X
+
+
+
+
+
+
+9.print the multiplication table of a no
+
+
+
+For loop
+	3 in 1 loop
+syntax
+	for(init ;  cond ; incr/decr)
+	{
+		statements
+	}
+can we write for loop like this
+	for(  ;    ;   )
+	{
+		....
+	}
+
+	init 
+	while(cond)
+	{
+		staates
+		incr/decr
+	}
+
+n=14
+n      X   i  =  n* i
+14   X   1   =14
+14   X   2   =28
+....
+14   X   10   =140
+
+HOME WORK
+1. print the table,upto 20 multiples
+2. print the table,from 10 to 1 multiples
+3.  print the table,from 1 to upto that no 
+
+
+nested for loop
+
+	for(init ;  cond ; incr/decr)
+	{
+		for(init ;  cond ; incr/decr)
+		{
+			statements
+		}
+		....
+	}
+Time
+h        	m           s
+00 -23 :  00 -59 : 00 -59
+...
+00: 01 : 00
+
+00: 59 :59:
+
+01: 00: 00
+
+wap to print multiplication tables of 1..10
+wap to print multiplication tables of 1..20
+
+wap to print multiplication tables of 1..10,multiples from 10 to 1
+wap to print multiplication tables of 1..10,multiples from 1to upto square value
+1 to upto that no
+
+1 X 1=1
+2 X 1=2
+2 X2=4
+1 X 10 = 10
+2
+3
+4
+
+print the factorial values of 1..10
+print the prime no s between 100 to 400
+accept a range of numbers and print the perfect nos in them
+6
+1	2	3	=6
+28
+1	2	4	7	14=28
+
+		cols
+	1	2	3	4	5
+r	2	4	6	8	10
+o	3	6	9	12	15
+w	4	8	12	16	20
+s	5	10	15	20	25
+
+j
+  1	2	3	4	5
+i1*
+2*	*
+3*	*	*
+4*	*	*	*
+5*	*	*	*	*
+
+2 
+*****
+****
+***
+**
+*
+3
+10000
+01000
+00100
+00010
+00001
+4
+00001
+00010
+00100
+01000
+10000
+5 
+00100
+00100
+11111
+00100
+00100
+
+min=10	max=12
+
+	min/2=10/2=5
+10
+1	2 	5
+10>12 x
+min++	=>11
+
+
+10001
+01010
+00100
+01010
+10001
+
+
+do..while loop
+	Exit controlled looping statement
+
+syntax
+	do
+	{
+		statements
+		incr/decr
+	}while(cond);
+
+choice based or menu driven
+
+
+WAP  to print the multiplication tables of Required nos
+5
+5X1=5
+5X10=50
+want to cont(1/0): 1
+
+16
+16 X1=16
+
+16 X1=160
+
+2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

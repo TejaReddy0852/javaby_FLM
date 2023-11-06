@@ -1,0 +1,101 @@
+						Java Introduction
+
+	Java is a programming language and a platform oriented, Java is a high level, robust, object-oriented and secure programming language.
+		
+		
+Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java.
+
+History of Java Programming Language
+
+
+	The Java language was initially called OAK.
+	
+	Originally, it was developed for handling portable devices and set-top boxes. Oak was a 	massive failure.
+	
+	In 1995, Sun changed the name to “Java” and modified the language to take advantage of the burgeoning www (World Wide Web) development business.
+	W3c
+	Later, in 2009, Oracle Corporation acquired Sun Microsystems and took ownership of three key Sun software assets: Java, MySQL, and Solaris.
+
+Java Development kit (JDK)
+
+	JDK is a software development environment used for making applets and Java applications.
+		 The full form of JDK is Java Development Kit. 
+
+		Java developers can use it on Windows, macOS, Solaris, and Linux. JDK helps them to code and run Java programs. It is possible to install more than one JDK version on the same computer.
+
+Using JDK
+
+	JDK contains tools required to write Java programs and JRE to execute them.
+
+	It includes a compiler, Java application launcher, Appletviewer, etc.
+
+	Compiler converts code written in Java into byte code.
+
+	Java application launcher opens a JRE, loads the necessary class, and executes its main 	method.
+
+Java Virtual Machine (JVM):
+
+		Java Virtual Machine (JVM) is an engine that provides a runtime environment to drive the Java Code or applications. It converts Java bytecode into machine language. 
+
+		JVM is a part of the Java Run Environment (JRE). In other programming languages, the compiler produces machine code for a particular system. However, the Java compiler produces code for a Virtual Machine known as Java Virtual Machine.
+
+Why JVM
+
+	* JVM provides a platform-independent way of executing Java source code.
+	* It has numerous libraries, tools, and frameworks.
+	* Once you run a Java program, you can run on any platform and save lots of time.
+	* JVM comes with JIT (Just-in-Time) compiler that converts Java source code into low-	level machine language. Hence, it runs faster than a regular application.
+
+
+Java Runtime Environment (JRE)
+	JRE is a piece of software that is designed to run other software. It contains the class libraries, loader class, and JVM. 
+	In simple terms, if you want to run a Java program, you need JRE. If you are not a programmer, you don’t need to install JDK, but just JRE to run Java programs.
+
+Why  JRE?
+
+	& JRE contains class libraries, JVM, and other supporting files. It does not include any 		tool for Java development like a debugger, compiler, etc.
+	& It uses important package classes like math, swing, util, lang, awt, and runtime 			libraries.
+	& If you have to run Java applets, then JRE must be installed in your system.
+
+					JVM
+					JSL
+					JRE
+					JDK
+
+
+
+source code			add.java			written code
+     |
+compiler(JIT)	: Converts high level to low level (program)
+     |
+byte code		:	add.class			stores inside JVM	
+     |
+Interpreter		
+     |
+machine code	: 	add			JRE
+
+1 -- ---- -
+2 ---- - 
+3-----
+4 -----
+5 -------
+
+COMPILER
+2  .... 
+4 .... ..
+
+1 -- ---- -
+2 ---- - x
+3-----
+4 -----x
+5 -------
+
+INTERPRETER
+
+
+
+
+
+
+
+
